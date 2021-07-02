@@ -218,10 +218,17 @@ nav {
   }
   #nav-button{
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
     grid-row: 1;
     color: #FFFFFF;
   }
+  #nav-button i, #nav-button a{
+    margin-left: 0.5rem;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
   #nav-menu{
     z-index: 100;
     position: fixed;
@@ -242,7 +249,7 @@ nav {
     color: #253577;
     text-decoration: none;
   }
-  #nav-menu p, i{
+  #nav-menu p, #nav-menu i{
     padding: 2rem 0rem 2rem 0rem;
     margin: 0rem 0rem 0rem 0rem;
     grid-column: 2;

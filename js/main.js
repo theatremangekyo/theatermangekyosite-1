@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$("#nav-button").click(function(){
+	$(".fa-bars").click(function(){
 		$("#nav-menu").toggleClass("hidden");
 	});
 
