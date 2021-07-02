@@ -222,6 +222,7 @@ nav {
     justify-content: flex-end;
     grid-row: 1;
     color: #FFFFFF;
+    height: 1rem;
   }
   #nav-button i, #nav-button a{
     margin-left: 0.5rem;
